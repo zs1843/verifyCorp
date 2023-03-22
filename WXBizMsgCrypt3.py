@@ -278,20 +278,3 @@ class WXBizMsgCrypt(object):
         pc = Prpcrypt(self.key)
         ret, xml_content = pc.decrypt(encrypt, self.m_sReceiveId)
         return ret, xml_content
-Footer
-© 2023 GitHub, Inc.
-Footer navigation
-
-    Terms
-    Privacy
-    Security
-    Status
-    Docs
-    Contact GitHub
-    Pricing
-    API
-    Training
-    Blog
-    About
-
-weworkapi_python/WXBizMsgCrypt3.py at master · sbzhu/weworkapi_python · GitHub
